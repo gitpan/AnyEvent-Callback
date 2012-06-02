@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               AnyEvent-Callback
-version:            0.02
-abstract:           ~
+version:            0.03
+abstract:           callback aggregator for L<AnyEvent> watchers.
 author:
     - Dmitry E. Oboukhov <unera@debian.org>
 license:            perl
