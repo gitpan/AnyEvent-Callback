@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               AnyEvent-Callback
-version:            0.03
+version:            0.05
 abstract:           callback aggregator for L<AnyEvent> watchers.
 author:
     - Dmitry E. Oboukhov <unera@debian.org>
@@ -9,7 +9,7 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    ExtUtils::MakeMaker:  0
+    AnyEvent:  0
 requires:  {}
 resources:
     bugtracker:  https://github.com/unera/libanyevent-callback/issues
